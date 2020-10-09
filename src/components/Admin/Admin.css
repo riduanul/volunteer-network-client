@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+   
+    width: 100%;
+      
+  }
+  
+  td, th {
+    
+    text-align: left;
+    padding: 10px;
+  }
+  th{
+      padding-left: 15px;
+  }
+ 
+  .table-style{
+     
+     margin: 30px;
+     background-color:white;
+     
+  }
+  .bg-color{
+      background-color:rgb(240, 234, 234);
+  }

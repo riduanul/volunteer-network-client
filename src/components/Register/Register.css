@@ -1,0 +1,31 @@
+.logo-img{
+    margin-top: 20px;
+    margin-left: 530px;
+    position: relative;
+
+}
+.registration{
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    text-align: left;
+    line-height:30px; 
+    padding:30px;     
+}
+.registration input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid lightgray;
+    line-height:45px;
+    text-align: left;
+    color:gray
+}
+.registration button{
+    width: 100%;
+    margin-top:10px;
+}
+.registration h4{
+    font-weight:bold;
+    margin-bottom:10px;
+}

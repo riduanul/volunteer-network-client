@@ -1,0 +1,24 @@
+.login{
+    width: 400px;
+    height: 350px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    padding: 50px;
+    text-align: center;
+    padding-top:80px;
+
+}
+.login-btn{
+    width: 100%;
+    background:none;
+    border: 1px solid gray;
+    border-radius:20px;
+    padding:5px;
+}
+.login h4{
+    margin-bottom: 50px;
+    font-weight:bold;
+}
+.logo-login{
+    text-align: center;
+}

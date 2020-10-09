@@ -1,0 +1,17 @@
+.nav-bar img{
+    margin-right: 0px;
+    text-align: left;
+}
+.link{
+    margin-left:500px;
+}
+
+.activity{
+    width:400px;
+    height: 200px;
+    margin:20px;
+    border-radius:10px;
+    border: 1 solid lightgray;
+    background-color: rgb(190, 158, 158);
+
+}
