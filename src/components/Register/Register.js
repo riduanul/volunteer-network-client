@@ -16,7 +16,7 @@ const Register = () => {
   const { title } = useParams();
   const titleInfo = { title: title };
   useEffect(() => {
-    fetch("https://pacific-badlands-82158.herokuapp.com//imgRegistration?title=" + title)
+    fetch("https://pacific-badlands-82158.herokuapp.com/imgRegistration?title=" + title)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

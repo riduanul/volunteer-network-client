@@ -7,13 +7,13 @@ import trash from "../../resource/logos/trash-2 9.png";
 const Admin = () => {
   const [activities, setActivities] = useState([]);
   useEffect(() => {
-    fetch("https://pacific-badlands-82158.herokuapp.com//activityData")
+    fetch("https://pacific-badlands-82158.herokuapp.com/activityData")
       .then((res) => res.json())
       .then((data) => setActivities(data));
   }, []);
 
   const handleDelete = (id) => {
-    fetch(`https://pacific-badlands-82158.herokuapp.com//delete/${id}`, {
+    fetch(`https://pacific-badlands-82158.herokuapp.com/delete/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

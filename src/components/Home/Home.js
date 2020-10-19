@@ -12,7 +12,7 @@ const Home = () => {
   ] = useContext(UserContext);
 
   useEffect(() => {
-    fetch("https://pacific-badlands-82158.herokuapp.com//data")
+    fetch("https://pacific-badlands-82158.herokuapp.com/data")
       .then((res) => res.json())
       .then((data) => setActivityInfo(data));
   }, []);
