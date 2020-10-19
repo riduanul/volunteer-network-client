@@ -20,7 +20,7 @@ const Header = () => {
                 <button className="btn btn-primary">Register</button>
               </Link>
               <Link to="/admin">
-                {" "}
+                
                 <button className="btn btn-dark b">Admin</button>
               </Link>
             </div>

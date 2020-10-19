@@ -16,7 +16,7 @@ const Register = () => {
   const { title } = useParams();
   const titleInfo = { title: title };
   useEffect(() => {
-    fetch("http://localhost:5000/imgRegistration?title=" + title)
+    fetch("https://pacific-badlands-82158.herokuapp.com//imgRegistration?title=" + title)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -29,7 +29,7 @@ const Register = () => {
   const handleRegistration = () => {
     const newRegistration = { ...loggedInUser, ...titleInfo };
     console.log(newRegistration);
-    fetch("http://localhost:5000/addActivity", {
+    fetch("https://pacific-badlands-82158.herokuapp.com/addActivity", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newRegistration),
@@ -56,7 +56,7 @@ const Register = () => {
             type="text"
             placeholder="Name"
             defaultValue={loggedInUser.name}
-          />{" "}
+          />
           <br />
           <input
             type="text"
